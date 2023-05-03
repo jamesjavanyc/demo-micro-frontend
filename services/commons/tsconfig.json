@@ -19,7 +19,9 @@
     "declaration": true,
     "emitDeclarationOnly": true
   },
-  "files": ["src/skytravel-home.tsx"],
+  "files": ["src/skytravel-commons.tsx"],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
 }
+
+

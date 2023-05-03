@@ -7,6 +7,10 @@ module.exports = (webpackConfigEnv, argv) => {
     projectName: "authentication",
     webpackConfigEnv,
     argv,
+    externals: {
+      'react': 'React',
+      'react-dom': 'ReactDOM',
+    }
   });
 
   return merge(defaultConfig, {

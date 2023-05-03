@@ -1,8 +1,8 @@
 {
-  "name": "@skytravel/authentication",
+  "name": "@skytravel/commons",
   "scripts": {
-    "start": "webpack serve --port 3001",
-    "start:standalone": "webpack serve --port 3001 --env standalone",
+    "start": "webpack serve --port 3100",
+    "start:standalone": "webpack serve --port 3100 --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
@@ -60,5 +60,5 @@
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9"
   },
-  "types": "dist/skytravel-authentication.d.ts"
+  "types": "dist/skytravel-commons.d.ts"
 }
