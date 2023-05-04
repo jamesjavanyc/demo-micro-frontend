@@ -1,4 +1,10 @@
 {
+  "prettier/prettier": [
+    "error",
+    {
+      "endOfLine": "auto"
+    },
+  ],
   "extends": [
     "ts-react-important-stuff",
     "plugin:prettier/recommended"

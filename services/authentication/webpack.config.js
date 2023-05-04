@@ -8,9 +8,9 @@ module.exports = (webpackConfigEnv, argv) => {
     webpackConfigEnv,
     argv,
     externals: {
-      'react': 'React',
-      'react-dom': 'ReactDOM',
-    }
+      react: "React",
+      "react-dom": "ReactDOM",
+    },
   });
 
   return merge(defaultConfig, {
